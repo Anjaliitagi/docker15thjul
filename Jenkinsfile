@@ -2,11 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/Anjaliitagi/docker15thjul.git'
-            }
-        }
+        
 
         stage('Build with Maven') {
             steps {
